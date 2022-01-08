@@ -4,7 +4,7 @@ import string
 
 for x in range(21):
 
-    characters = string.printable
+    characters = string.letters + string.digits + string.punctuation
 
     random_character = random.choice(characters)
 
