@@ -4,19 +4,13 @@
 import random
 import string
 
-
-cycle_amount = {}
-
 print("How many times should the random number be given?:")
 cycle_amount = input()
 
 cycle_amount = int(cycle_amount)
 
 
-for x in range(cycle_amount):
-    
-    cycle_amount = {}
-    
+for x in range(cycle_amount):    
     characters = string.letters + string.digits + string.punctuation
 
     random_character = random.choice(characters)
